@@ -5,7 +5,9 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,7 +32,9 @@ header li {
 section {
     height: 100vh;
     border: 1px solid black;
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
     justify-content: center;
     align-items: center;
     text-align: center;
